@@ -1,0 +1,110 @@
+header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header>h1>#span1 {
+
+    color: blue;
+}
+
+
+#title {
+    color: white;
+    background-image: linear-gradient(steelBlue, #89aecc, steelBlue);
+}
+
+.container-fluid {
+    height: 100%
+}
+
+/* .col-lg-9 {
+    /* border:3px solid black; } */
+
+
+header img {
+    height: 100px;
+    width: 100px;
+}
+
+#DNS_header {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+#DNS_header img {
+    height: 100px;
+    width: 100px;
+}
+
+.DNS_header_inline {
+    display: inline-flex;
+    align-items: center;
+}
+
+.phone_header_flex {
+    display: flex;
+}
+
+.btn-secondary {
+
+    color: white;
+    background-color: orange;
+}
+
+#img-text {
+
+    background-image: url("ad_background.png");
+}
+
+#img-text>h2 {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left: 50px;
+
+}
+
+.btn-success {
+    margin-left: 60px;
+    background-color: #00c3df;
+    width: 200px;
+
+}
+
+.ninja {
+    position: relative;
+    left: 70px;
+    height: 250px;
+}
+
+.htmlimg {
+
+    height: 160px;
+}
+
+.lastp {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 200px;
+    top: -150px;
+}
+
+#lastcon {
+    border: 6px solid #00c3df;
+height:200px;
+
+}
+
+#list {
+    list-style: none;
+}
+
+#header2{
+color: rgb(18, 18, 134);
+font-weight: bold;
+}
